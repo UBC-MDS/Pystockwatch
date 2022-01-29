@@ -2,6 +2,9 @@
 
 <!--next-version-placeholder-->
 
+## v0.2.1 (2022-01-29)
+
+
 ## v0.2.0 (2022-01-29)
 ### Feature
 * Function4 with volume visualization ([`16034c9`](https://github.com/UBC-MDS/pystockwatch/commit/16034c9b1ad18bc95278e3979e44bbaa6c3f465e))
