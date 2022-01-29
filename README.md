@@ -34,7 +34,7 @@ $ pip install -i https://test.pypi.org/simple/ pystockwatch
 ## Usage
 After the sucessful installation of this package user will be required to input four parameters: `stock_ticker`, `start_date`, `end_date` and `benchmark_ticker`. Output results will be in form of an interactive plot based on "plotly" and "altair" package.
 
-`pystockwatch` can be used to fnd the profit percent of stock prices in comparison to the market and check the trend in volume change of stocks and plot results as follows:
+`pystockwatch` can be used to find the profit percent of stock prices in comparison to the market and check the trend in volume change of stocks and plot results as follows:
 
 Import the functions from package with following commands:
 
@@ -93,6 +93,7 @@ Before the installation of this package please install the following packages:
 * pandas = "^1.3.5"
 * altair = "^4.2.0"
 * altair_viewer = "^0.4.0"
+* pandas-datareader = "^0.10.0"
 
 ## License
 
