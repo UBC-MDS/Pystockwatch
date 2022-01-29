@@ -28,7 +28,7 @@ There are many packages written for analysis of stock data. One of the most popu
 ## Installation
 
 ```bash
-$ pip install https://github.com/UBC-MDS/pystockwatch
+$ pip install -i https://test.pypi.org/simple/ pystockwatch
 ```
 
 ## Usage
