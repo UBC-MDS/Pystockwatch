@@ -19,7 +19,7 @@ def percent_change(stock_ticker, start_date, end_date):
     Parameters
     ----------
     stock_ticker : string 
-        Ticker of the stock such as 'AAPL', or 'AAPL MSFT SPY' for multiple tickers
+        Ticker of the stock such as 'AAPL'
     start_date : string
         Initial date for data extraction
     end_date : string
@@ -35,11 +35,11 @@ def percent_change(stock_ticker, start_date, end_date):
     >>> percent_change('AAPL', '2017-01-01', '2017-01-10')
                     Price Change Percentage(%) 
               Date
-        2017-01-03                      0.0000
-        2017-01-04                     -0.1119
-        2017-01-05                      0.3960
-        2017-01-06                      1.5153
-        2017-01-09                      2.4451
+        2017-01-03                        0.000
+        2017-01-04                       -0.112
+        2017-01-05                        0.396
+        2017-01-06                        1.515
+        2017-01-09                        2.445
     """ 
     
     # Assert ticker input value
@@ -71,9 +71,9 @@ def percent_change(stock_ticker, start_date, end_date):
     
     # Carry out calculation
     for i in range(1,len(data)):
-        data.iloc[i,:] = round((data.iloc[i,:] - data.iloc[0,:])/data.iloc[0,:]*100,3)
+        data.iloc[i,:] = round((data.iloc[i,:] - data.iloc[0,:])/data.iloc[0,:]*100, 3)
     
-    data.iloc[0,:] = round((data.iloc[0,:] - data.iloc[0,:])/data.iloc[0,:]*100,3)
+    data.iloc[0,:] = round((data.iloc[0,:] - data.iloc[0,:])/data.iloc[0,:]*100, 3)
     
     # Manipulate column name
     data = data.rename(columns={"Close": "Price Change Percentage(%)"})
@@ -99,7 +99,8 @@ def profit_viz(stock_ticker, start_date , end_date, benchmark_ticker):
     
     Returns
     --------
-     Line plots which shows percentage change in stock price and market performance over time 
+    Altair Chart
+        A line chart which shows percentage change in stock price and market performance over time 
     
     Examples
     --------
@@ -210,7 +211,9 @@ def volume_change(stock_ticker, start_date, end_date):
 
     Returns
     --------
+    DataFrame
         A data frame with dates and their corresponding trading volume and changes
+
     Examples
     --------
         >>> volume_change('AAPL', '2021-01-01', '2022-01-01')
@@ -254,18 +257,20 @@ def volume_change(stock_ticker, start_date, end_date):
 def volume_viz(stock_ticker, start_date, end_date):
     """
     Visualize the daily trading volume of a stock using bar plot within a given period of time
+    
     Parameters
     ----------
-    stock_ticker : string  
+    stock_ticker : string 
         Ticker of the stock such as 'AAPL'
-    start_date : string 
+    start_date : string
         Initial date for data extraction
     end_date : string 
         Final date for stock analysis
     
     Returns
     --------
-    Interactive plot with overlay of line plots and bar plot
+    Chart
+        Interactive bar plot created to view the volume change
     
     Examples
     --------

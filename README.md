@@ -1,8 +1,9 @@
 # pystockwatch
 
-![](https://github.com/UBC-MDS/pystockwatch/workflows/build/badge.svg) [![codecov](https://codecov.io/gh/UBC-MDS/pystockwatch/branch/master/graph/badge.svg)](https://codecov.io/gh/UBC-MDS/pystockwatch) ![Release](https://github.com/UBC-MDS/pystockwatch/workflows/Release/badge.svg)
+[![codecov](https://codecov.io/gh/UBC-MDS/pystockwatch/branch/main/graph/badge.svg?token=c6vEGpbs3h)](https://codecov.io/gh/UBC-MDS/pystockwatch)
+[![build](https://github.com/UBC-MDS/pystockwatch/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/UBC-MDS/pystockwatch/actions/workflows/ci-cd.yml)
+[![Documentation Status](https://readthedocs.org/projects/pystockwatch/badge/?version=latest)](https://pystockwatch.readthedocs.io/en/latest/?badge=latest)
 
-[![Documentation Status](https://readthedocs.org/projects/convertemppy/badge/?version=latest)](https://convertemppy.readthedocs.io/en/latest/?badge=latest)
 
 This package has been created to provide a very simple interface for checking movements in stock prices in comparison to the market. This is implemented by accessing public data from Yahoo Finance by selecting a ticker of the stock, range of start and end dates and benchmark for comparison, such as `SP500` or `NASDAQ`. As a result of data processing with pystockwatch package, users will be able to generate two plots: one with two lines showing percentage change in profit since the start date and volumes of trading and another related to daily change in the volume of stock trades as shown at examples below
 
@@ -55,7 +56,7 @@ percent_change('AAPL', '2017-01-01', '2017-01-10')
 fig = profit_viz('AAPL', '2015-01-01', '2021-12-31', 'SP500')
 fig.show()
 ```
-<img src="docs/percent_change_example.png">
+![**Percent Change**](https://github.com/UBC-MDS/pystockwatch/blob/main/docs/percent_change_example.png?raw=true)
 
 ### To check daily trading volume change of a stock
 
@@ -68,11 +69,12 @@ volume_change('AAPL', '2021-01-01', '2022-01-01')
 vol = volume_viz('AAPL', '2021-01-01', '2022-01-01')
 vol.show()
 ```
- <img src="docs/volume_plot_example.png">
+ ![**Volume Change**](https://github.com/UBC-MDS/pystockwatch/blob/main/docs/volume_plot_example.png?raw=true)
 
 ## Documentation
 
-The documentation is hosted on Read the Docs: here()
+The documentation of this package is hosted on Read the Docs: [here](https://pystockwatch.readthedocs.io/)
+
 ## Contributors
 
 * Affrin Sultana
