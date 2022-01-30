@@ -2,6 +2,28 @@
 
 <!--next-version-placeholder-->
 
+## v0.3.1 (2022-01-30)
+
+
+## v0.3.0 (2022-01-30)
+### Feature
+* **ptofit_viz:** Added changes to profit_viz ([`fcd413a`](https://github.com/UBC-MDS/pystockwatch/commit/fcd413a14287ea93abd83f04e8b1f29afa0208df))
+
+## v0.2.5 (2022-01-30)
+
+
+## v0.2.4 (2022-01-30)
+
+
+## v0.2.3 (2022-01-30)
+
+
+## v0.2.2 (2022-01-29)
+
+
+## v0.2.1 (2022-01-29)
+
+
 ## v0.2.0 (2022-01-29)
 ### Feature
 * Function4 with volume visualization ([`16034c9`](https://github.com/UBC-MDS/pystockwatch/commit/16034c9b1ad18bc95278e3979e44bbaa6c3f465e))
