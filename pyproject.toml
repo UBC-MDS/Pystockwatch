@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pystockwatch"
-version = "0.3.1"
+version = "0.3.2"
 description = "A package which calculates and visualizes the profitability and the volume change of stocks "
 authors = ["Affrin Sultana, Helin Wang, Pavel Levchenko, Shi Yan Wang"]
 license = "MIT"
