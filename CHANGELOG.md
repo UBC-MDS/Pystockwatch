@@ -2,6 +2,9 @@
 
 <!--next-version-placeholder-->
 
+## v0.3.1 (2022-01-30)
+
+
 ## v0.3.0 (2022-01-30)
 ### Feature
 * **ptofit_viz:** Added changes to profit_viz ([`fcd413a`](https://github.com/UBC-MDS/pystockwatch/commit/fcd413a14287ea93abd83f04e8b1f29afa0208df))
