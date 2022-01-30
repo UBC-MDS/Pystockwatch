@@ -270,7 +270,7 @@ def volume_viz(stock_ticker, start_date, end_date):
     Returns
     --------
     Chart
-        Interactive bar plot created to view the volume change
+        Create interactive bar plot to view the volume change
     
     Examples
     --------
