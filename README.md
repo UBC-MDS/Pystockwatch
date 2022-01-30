@@ -20,10 +20,10 @@ This package has been created to provide a very simple interface for checking mo
  - `volume_viz`
  Visualization of trading volume as bar plots colored by changes in volume in comparison with previous day. This plot is overlayed with line plots created with the second function. . Note that during weekends and public holidays, stock market has no data available, this is handled in plotting as well  
   
- More information about those functions can be found in docstrings of `/src/pystockwatch/pystockwatch.py`
+ More information about those functions can be found in docstrings of `/src/pystockwatch/pystockwatch.py`.
  
 #### Comparison with similar packages
-There are many packages written for analysis of stock data. One of the most popular Python package in this category is `pyti`, which gives a lot of manipulations with time series data, such as creating moving averages of stock price or calculating hundreds of parameters for technical analysis. Power of `pystockwatch` is in its simplicity, so users are not overwhelmed with all extra features and just have a simple view with key comparisons for a stock of interest
+There are many packages written for analysis of stock data. One of the most popular Python package in this category is `pyti`, which gives a lot of manipulations with time series data, such as creating moving averages of stock price or calculating hundreds of parameters for technical analysis. Power of `pystockwatch` is in its simplicity, so users are not overwhelmed with all extra features and just have a simple view with key comparisons for a stock of interest.
 
 ## Installation
 
@@ -97,7 +97,7 @@ Before the installation of this package please install the following packages:
 
 ## License
 
-`pystockwatch` was created by Affrin Sultana, Helin Wang, Pavel Levchenko, Shi Yan Wang. It is licensed under the terms of the MIT license.
+`pystockwatch` was created by Affrin Sultana, Helin Wang, Pavel Levchenko, Shi Yan Wang.It is licensed under the terms of the MIT license. 
 
 ## Credits
 
