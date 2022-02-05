@@ -53,7 +53,7 @@ percent_change('AAPL', '2017-01-01', '2017-01-10')
 ### To Visualize the profit percentage change trend of a stock against market benchmark
 
 ```
-fig = profit_viz('AAPL', '2015-01-01', '2021-12-31', 'SP500')
+fig = profit_viz('AAPL', '2015-01-01', '2021-12-31', 'SPY')
 fig.show()
 ```
 ![**Percent Change**](https://github.com/UBC-MDS/pystockwatch/blob/main/docs/percent_change_example.png?raw=true)
